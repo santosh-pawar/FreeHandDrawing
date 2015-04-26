@@ -13,6 +13,11 @@
 		2C2702FA1AE8206D006457D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2702F91AE8206D006457D1 /* Images.xcassets */; };
 		2C2702FD1AE8206D006457D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C2702FB1AE8206D006457D1 /* LaunchScreen.xib */; };
 		2C2703091AE8206D006457D1 /* FreeHandDrawingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2703081AE8206D006457D1 /* FreeHandDrawingTests.swift */; };
+		2C2703131AE82122006457D1 /* LinearInterpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2703121AE82122006457D1 /* LinearInterpView.swift */; };
+		2C2F23F21AEAA746009C8AFB /* CachedLIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2F23F11AEAA746009C8AFB /* CachedLIView.swift */; };
+		2C2F23F41AEAABA6009C8AFB /* BezierInterpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2F23F31AEAABA6009C8AFB /* BezierInterpView.swift */; };
+		2C2F23F61AEAC43F009C8AFB /* SmoothedBIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2F23F51AEAC43F009C8AFB /* SmoothedBIView.swift */; };
+		2C2F23FC1AEC8777009C8AFB /* PopOverTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2F23FB1AEC8777009C8AFB /* PopOverTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		2C2703021AE8206D006457D1 /* FreeHandDrawingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeHandDrawingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C2703071AE8206D006457D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C2703081AE8206D006457D1 /* FreeHandDrawingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeHandDrawingTests.swift; sourceTree = "<group>"; };
+		2C2703121AE82122006457D1 /* LinearInterpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearInterpView.swift; sourceTree = "<group>"; };
+		2C2F23F11AEAA746009C8AFB /* CachedLIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachedLIView.swift; sourceTree = "<group>"; };
+		2C2F23F31AEAABA6009C8AFB /* BezierInterpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BezierInterpView.swift; sourceTree = "<group>"; };
+		2C2F23F51AEAC43F009C8AFB /* SmoothedBIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmoothedBIView.swift; sourceTree = "<group>"; };
+		2C2F23FB1AEC8777009C8AFB /* PopOverTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopOverTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +87,13 @@
 		2C2702EF1AE8206D006457D1 /* FreeHandDrawing */ = {
 			isa = PBXGroup;
 			children = (
+				2C2703121AE82122006457D1 /* LinearInterpView.swift */,
+				2C2F23F11AEAA746009C8AFB /* CachedLIView.swift */,
+				2C2F23F31AEAABA6009C8AFB /* BezierInterpView.swift */,
+				2C2F23F51AEAC43F009C8AFB /* SmoothedBIView.swift */,
 				2C2702F21AE8206D006457D1 /* AppDelegate.swift */,
 				2C2702F41AE8206D006457D1 /* ViewController.swift */,
+				2C2F23FB1AEC8777009C8AFB /* PopOverTableVC.swift */,
 				2C2702F61AE8206D006457D1 /* Main.storyboard */,
 				2C2702F91AE8206D006457D1 /* Images.xcassets */,
 				2C2702FB1AE8206D006457D1 /* LaunchScreen.xib */,
@@ -161,6 +176,7 @@
 				TargetAttributes = {
 					2C2702EC1AE8206D006457D1 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = METF7ZXEP6;
 					};
 					2C2703011AE8206D006457D1 = {
 						CreatedOnToolsVersion = 6.2;
@@ -213,6 +229,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C2702F51AE8206D006457D1 /* ViewController.swift in Sources */,
+				2C2F23F21AEAA746009C8AFB /* CachedLIView.swift in Sources */,
+				2C2F23FC1AEC8777009C8AFB /* PopOverTableVC.swift in Sources */,
+				2C2F23F61AEAC43F009C8AFB /* SmoothedBIView.swift in Sources */,
+				2C2703131AE82122006457D1 /* LinearInterpView.swift in Sources */,
+				2C2F23F41AEAABA6009C8AFB /* BezierInterpView.swift in Sources */,
 				2C2702F31AE8206D006457D1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -325,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -337,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FreeHandDrawing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -347,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FreeHandDrawing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -405,6 +428,7 @@
 				2C27030E1AE8206D006457D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C27030F1AE8206D006457D1 /* Build configuration list for PBXNativeTarget "FreeHandDrawingTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +437,7 @@
 				2C2703111AE8206D006457D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
